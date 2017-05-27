@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C0C49A6D7A07E4264131F8 /* libPods-DataCapture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E26AD3F6069179911BB40D /* libPods-DataCapture.a */; };
+		84F72F161ED96AD2004D6A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F72F151ED96AD2004D6A8F /* main.m */; };
+		84F72F1F1ED96AF9004D6A8F /* NSString+Substring.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F72F1E1ED96AF9004D6A8F /* NSString+Substring.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84F72F101ED96AD2004D6A8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14E26AD3F6069179911BB40D /* libPods-DataCapture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataCapture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5136AC878D4DFF8B19D84B3C /* Pods-DataCapture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCapture.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataCapture/Pods-DataCapture.release.xcconfig"; sourceTree = "<group>"; };
+		84F72F121ED96AD2004D6A8F /* DataCapture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataCapture; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F72F151ED96AD2004D6A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F72F1D1ED96AF9004D6A8F /* NSString+Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Substring.h"; sourceTree = "<group>"; };
+		84F72F1E1ED96AF9004D6A8F /* NSString+Substring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Substring.m"; sourceTree = "<group>"; };
+		DB8B65D6EDD965BBE9525DA0 /* Pods-DataCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCapture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataCapture/Pods-DataCapture.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F72F0F1ED96AD2004D6A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C0C49A6D7A07E4264131F8 /* libPods-DataCapture.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDC66216B511910CA283969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14E26AD3F6069179911BB40D /* libPods-DataCapture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F72F091ED96AD2004D6A8F = {
+			isa = PBXGroup;
+			children = (
+				84F72F141ED96AD2004D6A8F /* DataCapture */,
+				84F72F131ED96AD2004D6A8F /* Products */,
+				B06E0733F0FF4D8004456635 /* Pods */,
+				0BDC66216B511910CA283969 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84F72F131ED96AD2004D6A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F72F121ED96AD2004D6A8F /* DataCapture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F72F141ED96AD2004D6A8F /* DataCapture */ = {
+			isa = PBXGroup;
+			children = (
+				84F72F1C1ED96AF9004D6A8F /* 3rdLibs */,
+				84F72F151ED96AD2004D6A8F /* main.m */,
+			);
+			path = DataCapture;
+			sourceTree = "<group>";
+		};
+		84F72F1C1ED96AF9004D6A8F /* 3rdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				84F72F1D1ED96AF9004D6A8F /* NSString+Substring.h */,
+				84F72F1E1ED96AF9004D6A8F /* NSString+Substring.m */,
+			);
+			path = 3rdLibs;
+			sourceTree = "<group>";
+		};
+		B06E0733F0FF4D8004456635 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B65D6EDD965BBE9525DA0 /* Pods-DataCapture.debug.xcconfig */,
+				5136AC878D4DFF8B19D84B3C /* Pods-DataCapture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F72F111ED96AD2004D6A8F /* DataCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F72F191ED96AD2004D6A8F /* Build configuration list for PBXNativeTarget "DataCapture" */;
+			buildPhases = (
+				B51E98DCB7A8DDE38E934F6B /* [CP] Check Pods Manifest.lock */,
+				84F72F0E1ED96AD2004D6A8F /* Sources */,
+				84F72F0F1ED96AD2004D6A8F /* Frameworks */,
+				84F72F101ED96AD2004D6A8F /* CopyFiles */,
+				63F65D4CAD818637D3E9B9FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataCapture;
+			productName = DataCapture;
+			productReference = 84F72F121ED96AD2004D6A8F /* DataCapture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F72F0A1ED96AD2004D6A8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LC;
+				TargetAttributes = {
+					84F72F111ED96AD2004D6A8F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84F72F0D1ED96AD2004D6A8F /* Build configuration list for PBXProject "DataCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84F72F091ED96AD2004D6A8F;
+			productRefGroup = 84F72F131ED96AD2004D6A8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F72F111ED96AD2004D6A8F /* DataCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63F65D4CAD818637D3E9B9FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataCapture/Pods-DataCapture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B51E98DCB7A8DDE38E934F6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F72F0E1ED96AD2004D6A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F72F161ED96AD2004D6A8F /* main.m in Sources */,
+				84F72F1F1ED96AF9004D6A8F /* NSString+Substring.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84F72F171ED96AD2004D6A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84F72F181ED96AD2004D6A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84F72F1A1ED96AD2004D6A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8B65D6EDD965BBE9525DA0 /* Pods-DataCapture.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84F72F1B1ED96AD2004D6A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5136AC878D4DFF8B19D84B3C /* Pods-DataCapture.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F72F0D1ED96AD2004D6A8F /* Build configuration list for PBXProject "DataCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F72F171ED96AD2004D6A8F /* Debug */,
+				84F72F181ED96AD2004D6A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F72F191ED96AD2004D6A8F /* Build configuration list for PBXNativeTarget "DataCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F72F1A1ED96AD2004D6A8F /* Debug */,
+				84F72F1B1ED96AD2004D6A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F72F0A1ED96AD2004D6A8F /* Project object */;
+}
